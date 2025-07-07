@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	
+	
+	<listeners>
+		<listener class-name="listernes_Eparwana.Mylistners"></listener>
+	</listeners>
+
+
+	<parameter name="Excel_path"
+		value="C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Eprawana_Fertilizer_State.xlsx"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+		
+		<class name="test.Login_Test"/>
+		
+		
+      <class name="test.service_Fertilizer_Dealer_License_State.Fertilizer_NewLicense_State_Level_Test"/>
+      
+      
+      
+   
+      
+      
+      
+      
+     <class name="Upload_documents.UploadDocumentsandPayment_Duplicate_Test"/>
+      
+      <class name="Scrutiny_Flow.Fertilizer_Ao_Fert_Test"/>
+        <!--<class name="Scrutiny_Flow.Fertilizer_TO_FERT_Test"/>
+        <class name="Scrutiny_Flow.Fertilizer_CO_QC_Test"/>
+       
+        <class name="Scrutiny_Flow.Fertilizer_dir_agri_Send_back_To_CQCO_Test"/>
+        
+        <class name="Scrutiny_Flow.Fertilizer_CO_QC_SendbackTo_TO_FERT_Test"/>
+         
+        <class name="Scrutiny_Flow.Fertilizer_TO_FERT_Reapply_Test"/>
+           
+        <class name="Scrutiny_Flow.Fertilizer_CO_QC_Reapply_Test"/>-->
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

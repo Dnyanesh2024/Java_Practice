@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-24T15:29:15 IST" name="Suite" finished-at="2025-02-24T15:43:41 IST" duration-ms="866300">
+    <groups>
+    </groups>
+    <test started-at="2025-02-24T15:29:15 IST" name="Test" finished-at="2025-02-24T15:43:41 IST" duration-ms="866300">
+      <class name="Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_AO_AKO1_Test">
+        <test-method is-config="true" signature="prinicipal_login(java.lang.String)[pri:0, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_AO_AKO1_Test@74c79fa2]" started-at="2025-02-24T15:36:57 IST" name="prinicipal_login" finished-at="2025-02-24T15:37:18 IST" duration-ms="20539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_District_Level.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prinicipal_login -->
+        <test-method signature="Scrutiny_Cotton_TO_Seed()[pri:1, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_AO_AKO1_Test@74c79fa2]" started-at="2025-02-24T15:37:18 IST" name="Scrutiny_Cotton_TO_Seed" finished-at="2025-02-24T15:38:48 IST" duration-ms="90667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scrutiny_Cotton_TO_Seed -->
+        <test-method is-config="true" signature="tear_Down()[pri:0, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_AO_AKO1_Test@74c79fa2]" started-at="2025-02-24T15:38:48 IST" name="tear_Down" finished-at="2025-02-24T15:38:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_Down -->
+      </class> <!-- Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_AO_AKO1_Test -->
+      <class name="UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2]" started-at="2025-02-24T15:33:50 IST" name="setup" finished-at="2025-02-24T15:33:50 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_District_Level.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Applicant_Information_Documents()[pri:1, instance:UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2]" started-at="2025-02-24T15:33:50 IST" name="verify_Applicant_Information_Documents" finished-at="2025-02-24T15:34:24 IST" duration-ms="33951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Applicant_Information_Documents -->
+        <test-method signature="verify_Information_of_the_Firm_Organization__Documents()[pri:2, instance:UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2]" started-at="2025-02-24T15:34:24 IST" name="verify_Information_of_the_Firm_Organization__Documents" finished-at="2025-02-24T15:35:23 IST" duration-ms="58727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Information_of_the_Firm_Organization__Documents -->
+        <test-method signature="verify_sales_Address_Details()[pri:3, instance:UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2]" started-at="2025-02-24T15:35:23 IST" name="verify_sales_Address_Details" finished-at="2025-02-24T15:35:32 IST" duration-ms="9330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_sales_Address_Details -->
+        <test-method signature="verify_Storage_Documents()[pri:4, instance:UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2]" started-at="2025-02-24T15:35:32 IST" name="verify_Storage_Documents" finished-at="2025-02-24T15:35:59 IST" duration-ms="26952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Storage_Documents -->
+        <test-method signature="verify_GRAS_Payment_Details_Details()[pri:5, instance:UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2]" started-at="2025-02-24T15:35:59 IST" name="verify_GRAS_Payment_Details_Details" finished-at="2025-02-24T15:36:47 IST" duration-ms="47722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_GRAS_Payment_Details_Details -->
+        <test-method signature="verify_Make_Payment()[pri:6, instance:UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2]" started-at="2025-02-24T15:36:47 IST" name="verify_Make_Payment" finished-at="2025-02-24T15:36:57 IST" duration-ms="10396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Make_Payment -->
+      </class> <!-- UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test -->
+      <class name="Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DDA_AKO2_Test">
+        <test-method is-config="true" signature="prinicipal_login(java.lang.String)[pri:0, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DDA_AKO2_Test@1e0f9063]" started-at="2025-02-24T15:38:48 IST" name="prinicipal_login" finished-at="2025-02-24T15:39:11 IST" duration-ms="23000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_District_Level.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prinicipal_login -->
+        <test-method signature="Scrutiny_Cotton_CI_Seed()[pri:1, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DDA_AKO2_Test@1e0f9063]" started-at="2025-02-24T15:39:11 IST" name="Scrutiny_Cotton_CI_Seed" finished-at="2025-02-24T15:40:28 IST" duration-ms="77047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scrutiny_Cotton_CI_Seed -->
+        <test-method is-config="true" signature="tear_Down()[pri:0, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DDA_AKO2_Test@1e0f9063]" started-at="2025-02-24T15:40:28 IST" name="tear_Down" finished-at="2025-02-24T15:40:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_Down -->
+      </class> <!-- Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DDA_AKO2_Test -->
+      <class name="test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b]" started-at="2025-02-24T15:29:40 IST" name="setup" finished-at="2025-02-24T15:29:44 IST" duration-ms="3760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_District_Level.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Applicant_Informatiom()[pri:1, instance:test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b]" started-at="2025-02-24T15:29:44 IST" name="verify_Applicant_Informatiom" finished-at="2025-02-24T15:30:25 IST" duration-ms="40993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Applicant_Informatiom -->
+        <test-method signature="verify_Firm_Informatiom()[pri:2, instance:test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b]" started-at="2025-02-24T15:30:25 IST" name="verify_Firm_Informatiom" finished-at="2025-02-24T15:30:54 IST" duration-ms="29841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Firm_Informatiom -->
+        <test-method signature="verify_Sales_Addres_details()[pri:3, instance:test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b]" started-at="2025-02-24T15:30:54 IST" name="verify_Sales_Addres_details" finished-at="2025-02-24T15:31:31 IST" duration-ms="36733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Sales_Addres_details -->
+        <test-method signature="verify_Storage_Details()[pri:4, instance:test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b]" started-at="2025-02-24T15:31:31 IST" name="verify_Storage_Details" finished-at="2025-02-24T15:32:03 IST" duration-ms="32334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Storage_Details -->
+        <test-method signature="verify_Crop_Varieties__Details()[pri:5, instance:test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b]" started-at="2025-02-24T15:32:03 IST" name="verify_Crop_Varieties__Details" finished-at="2025-02-24T15:32:59 IST" duration-ms="55431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Crop_Varieties__Details -->
+        <test-method signature="verify_Dashboard_Search()[pri:6, instance:test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b]" started-at="2025-02-24T15:32:59 IST" name="verify_Dashboard_Search" finished-at="2025-02-24T15:33:50 IST" duration-ms="51029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Dashboard_Search -->
+      </class> <!-- test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test -->
+      <class name="test.Login_Test">
+        <test-method signature="setup(java.lang.String)[pri:0, instance:test.Login_Test@126945f9]" started-at="2025-02-24T15:29:15 IST" name="setup" finished-at="2025-02-24T15:29:40 IST" duration-ms="24742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_District_Level.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- test.Login_Test -->
+      <class name="Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test">
+        <test-method is-config="true" signature="prinicipal_login(java.lang.String)[pri:0, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test@53bd8fca]" started-at="2025-02-24T15:40:28 IST" name="prinicipal_login" finished-at="2025-02-24T15:40:49 IST" duration-ms="20890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_District_Level.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prinicipal_login -->
+        <test-method signature="Scrutiny_Cotton_Dir_Agri()[pri:1, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test@53bd8fca]" started-at="2025-02-24T15:40:49 IST" name="Scrutiny_Cotton_Dir_Agri" finished-at="2025-02-24T15:42:25 IST" duration-ms="95914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scrutiny_Cotton_Dir_Agri -->
+        <test-method signature="verify_License()[pri:2, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test@53bd8fca]" started-at="2025-02-24T15:42:25 IST" name="verify_License" finished-at="2025-02-24T15:43:41 IST" duration-ms="76131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_License -->
+        <test-method is-config="true" signature="tear_Down()[pri:0, instance:Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test@53bd8fca]" started-at="2025-02-24T15:43:41 IST" name="tear_Down" finished-at="2025-02-24T15:43:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_Down -->
+      </class> <!-- Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

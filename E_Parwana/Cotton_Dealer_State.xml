@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="listernes_Eparwana.Mylistners"></listener>
+	</listeners>
+	
+	<parameter name="Excel_path"
+		value="C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_State.xlsx"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+		
+		<class name="test.Login_Test"/>
+		
+     <class name="test.service_Cotton_Dealer_License.Cotton_Dealer_License_State_Level_Test"/>
+     
+     <class name="UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_Test"/>
+     
+     <class name="Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_TO_Seed_Test"/>
+      <class name="Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_CI_Seed_Test"/>
+      
+         <class name="Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_co_qc_Test"/>
+         
+         <class name="Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_Dir_Agri_Test"/>
+    
+      
+      
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Excel_path" value="C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_District_Level.xlsx"/>
+  <listeners>
+    <listener class-name="listernes_Eparwana.Mylistners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test">
+        <methods>
+          <include name="tear_Down"/>
+          <include name="verify_License"/>
+          <include name="Scrutiny_Cotton_Dir_Agri"/>
+          <include name="prinicipal_login"/>
+        </methods>
+      </class> <!-- Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

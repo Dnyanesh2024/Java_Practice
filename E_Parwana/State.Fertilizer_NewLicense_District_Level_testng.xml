@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	
+	<listeners>
+		<listener class-name="listernes_Eparwana.Mylistners"></listener>
+	</listeners>
+	
+	<parameter name="Excel_path"
+		value="C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Eprawana_Fertilizer_District.xlsx"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+		
+		<class name="test.Login_Test"/>
+      <class name="test.service_Fertilizer_Dealer_License_State.Fertilizer_NewLicense_District_Level_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

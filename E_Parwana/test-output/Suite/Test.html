@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 24 15:29:15 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>866 seconds (866300 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test.verify_Storage_Details()'><b>verify_Storage_Details</b><br>Test class: test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test</td>
+<td></td>
+<td>32</td>
+<td>test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b</td></tr>
+<tr>
+<td title='UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test.verify_Make_Payment()'><b>verify_Make_Payment</b><br>Test class: UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test</td>
+<td></td>
+<td>10</td>
+<td>UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2</td></tr>
+<tr>
+<td title='UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test.verify_GRAS_Payment_Details_Details()'><b>verify_GRAS_Payment_Details_Details</b><br>Test class: UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test</td>
+<td></td>
+<td>47</td>
+<td>UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2</td></tr>
+<tr>
+<td title='Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DDA_AKO2_Test.Scrutiny_Cotton_CI_Seed()'><b>Scrutiny_Cotton_CI_Seed</b><br>Test class: Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DDA_AKO2_Test</td>
+<td></td>
+<td>77</td>
+<td>Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DDA_AKO2_Test@1e0f9063</td></tr>
+<tr>
+<td title='UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test.verify_sales_Address_Details()'><b>verify_sales_Address_Details</b><br>Test class: UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test</td>
+<td></td>
+<td>9</td>
+<td>UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2</td></tr>
+<tr>
+<td title='Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_AO_AKO1_Test.Scrutiny_Cotton_TO_Seed()'><b>Scrutiny_Cotton_TO_Seed</b><br>Test class: Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_AO_AKO1_Test</td>
+<td></td>
+<td>90</td>
+<td>Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_AO_AKO1_Test@74c79fa2</td></tr>
+<tr>
+<td title='test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test.verify_Sales_Addres_details()'><b>verify_Sales_Addres_details</b><br>Test class: test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test</td>
+<td></td>
+<td>36</td>
+<td>test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b</td></tr>
+<tr>
+<td title='test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test.verify_Crop_Varieties__Details()'><b>verify_Crop_Varieties__Details</b><br>Test class: test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test</td>
+<td></td>
+<td>55</td>
+<td>test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b</td></tr>
+<tr>
+<td title='test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test.verify_Dashboard_Search()'><b>verify_Dashboard_Search</b><br>Test class: test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test</td>
+<td></td>
+<td>51</td>
+<td>test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b</td></tr>
+<tr>
+<td title='test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test.verify_Firm_Informatiom()'><b>verify_Firm_Informatiom</b><br>Test class: test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test</td>
+<td></td>
+<td>29</td>
+<td>test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b</td></tr>
+<tr>
+<td title='Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test.Scrutiny_Cotton_Dir_Agri()'><b>Scrutiny_Cotton_Dir_Agri</b><br>Test class: Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test</td>
+<td></td>
+<td>95</td>
+<td>Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test@53bd8fca</td></tr>
+<tr>
+<td title='test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test.verify_Applicant_Informatiom()'><b>verify_Applicant_Informatiom</b><br>Test class: test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test</td>
+<td></td>
+<td>40</td>
+<td>test.service_Cotton_Dealer_License.Cotton_Dealer_License_district_level_Test@5023bb8b</td></tr>
+<tr>
+<td title='UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test.verify_Storage_Documents()'><b>verify_Storage_Documents</b><br>Test class: UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test</td>
+<td></td>
+<td>26</td>
+<td>UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2</td></tr>
+<tr>
+<td title='Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test.verify_License()'><b>verify_License</b><br>Test class: Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test</td>
+<td></td>
+<td>76</td>
+<td>Scrutiny_Flow_Cotton_Dealer_State.Cotton_Dealer_DSAO_AKO3_Test@53bd8fca</td></tr>
+<tr>
+<td title='UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test.verify_Applicant_Information_Documents()'><b>verify_Applicant_Information_Documents</b><br>Test class: UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test</td>
+<td></td>
+<td>33</td>
+<td>UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2</td></tr>
+<tr>
+<td title='UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test.verify_Information_of_the_Firm_Organization__Documents()'><b>verify_Information_of_the_Firm_Organization__Documents</b><br>Test class: UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test</td>
+<td></td>
+<td>58</td>
+<td>UploadDoc_cotton_Dealer_State_Test.UploadDocumentsandPayment_Cotton_Dealer_District_Test@5d5f10b2</td></tr>
+<tr>
+<td title='test.Login_Test.setup()'><b>setup</b><br>Test class: test.Login_Test<br>Parameters: C:\Users\Swapnil.Gedam\eclipse-workspacemahait\E_Parwana\src\main\resources\Cotton_Dealer_License_District_Level.xlsx</td>
+<td></td>
+<td>24</td>
+<td>test.Login_Test@126945f9</td></tr>
+</table><p>
+</body>
+</html>
